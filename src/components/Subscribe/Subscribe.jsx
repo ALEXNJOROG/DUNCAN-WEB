@@ -26,10 +26,10 @@ const Subscribe = () => {
             Reach Me On
           </h1>
           <h1 className="text-2xl !text-center sm:text-left sm:text-3xl font-semibold">
-            +254110876545
+            +254798383713
           </h1>
           <h1 className="text-2xl !text-center sm:text-left sm:text-2xl font-semibold">
-            sulemanmacharia@gmail.com
+            kamaudunco@gmail.com
           </h1>
           
         </div>

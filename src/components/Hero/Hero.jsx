@@ -8,23 +8,23 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 15% off on all Tribal Tattoos",
+    title: "🔧 Kitchen Cabinet Fittings – 10% OFF",
     description:
-      "Bold and timeless, these designs are inspired by ancient cultures. With swirling patterns and thick black lines, tribal tattoos symbolize heritage, strength, and the spirit of tradition.",
+      "Upgrade your kitchen with style – now at 10% OFF on all cabinet fittings!",
   },
   {
     id: 2,
     img: Image2,
-    title: "25% off on all Geometric Tattoos",
+    title: "🪑 Tables – 5% OFF",
     description:
-      "Precision meets art in geometric tattoos. They combine symmetry, clean lines, and mathematical patterns to create modern, eye-catching designs that celebrate balance and structure.",
+      "Gather around greatness – enjoy 5% OFF all handcrafted tables!",
   },
   {
     id: 3,
     img: Image3,
-    title: "30% off on all Minimalist Tattoos",
+    title: "🛏️ Beds – 15% OFF",
     description:
-      "For lovers of subtle elegance, minimalist tattoos use clean lines and sparse detail to deliver meaningful art without overwhelming the canvas of your skin.",
+      "Sleep in style and save – get 15% OFF all custom-made beds!",
   },
 ];
 
@@ -75,12 +75,12 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos-duration="500"
                     data-aos-delay="300"
                   >
-                    <button
+                    {/*<button
                       onClick={handleOrderPopup}
                       className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     >
                       Get Ink Now
-                    </button>
+                    </button>*/}
                   </div>
                 </div>
                 {/* image section */}

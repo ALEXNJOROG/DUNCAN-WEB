@@ -46,10 +46,10 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              MARSH INK SHOP
+              DUNCAN ENTERPRISES
             </h1>
             <p>
-            Step into our digital tattoo haven—where innovation meets artistry, your unique vision transforms into a masterpiece, and every tattoo tells a story!
+            ✨ Your dream space is just one order away. With top-quality craftsmanship, timely delivery, and unbeatable offers — we turn houses into homes, one piece at a time. Ready to transform your space? Let’s build something beautiful together.
             </p>
           </div>
 
@@ -95,11 +95,11 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+254110876545</p>
+                  <p>+254798383713</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaLocationArrow />
-                  <p>sulemanmacharia@gmail.com</p>
+                  <p>kamaudunco@gmail.com</p>
                 </div>
               </div>
             </div>

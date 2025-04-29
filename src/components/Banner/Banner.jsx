@@ -21,13 +21,14 @@ const Banner = () => {
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-              First Time Tattoo, upto 40% Off
+              First Time Client, upto 30% Off !
             </h1>
             <p
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Ink your first masterpiece with a deal that’s as bold as you are! For a limited time, enjoy a stunning 40% off your very first tattoo session. Our studio isn’t just about ink—it’s about the entire experience. We bring creativity to your doorstep with flexible locations, offer competitive prices that keep quality affordable, provide expert tattoo after care to ensure your art heals beautifully, and deliver personalized design consultations to transform your vision into a lasting masterpiece.
+              🎉 First-Time Buyer Special! 🎉
+              Step into comfort and style with 30% OFF your very first order! Whether it’s custom chairs, elegant tables, sleek kitchen cabinets, cozy beds, spacious wardrobes, stylish TV stands, or any other handcrafted household item — we’ve got you covered. Don’t miss this limited-time welcome offer. Quality meets affordability — place your order today!
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
@@ -40,7 +41,7 @@ const Banner = () => {
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
-                <p>Expert Tattoo After Care</p>
+                <p>Expert Installation</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />

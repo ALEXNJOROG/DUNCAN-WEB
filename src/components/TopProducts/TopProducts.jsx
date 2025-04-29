@@ -8,23 +8,23 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Illustrative",
+    title: "Sofa-Sets",
     description:
-      "Inspired by classic illustrations and graphic art, these tattoos blend narrative and artistic flair. They tell a story on your skin, often combining whimsical elements with detailed line work.",
+      "Sink into comfort and style — order your custom-made sofaset today!",
   },
   {
     id: 2,
     img: Img2,
-    title: "Maori",
+    title: "Wardropes",
     description:
-      "Drawing from ancient traditions, Celtic tattoos feature intricate knotwork and swirling patterns. They carry deep symbolism and evoke a sense of mystery, heritage, and spiritual connection.",
+      "Upgrade your space with elegant, spacious wardrobes — handcrafted just for you!",
   },
   {
     id: 3,
     img: Img3,
-    title: "Tribal",
+    title: "Coffee Tables",
     description:
-      "Bold and timeless, these designs are inspired by ancient cultures. With swirling patterns and thick black lines, tribal tattoos symbolize heritage, strength, and the spirit of tradition.",
+      "Add charm to your living room — stylish coffee tables made to impress!",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -34,10 +34,10 @@ const TopProducts = ({ handleOrderPopup }) => {
         {/* Header section */}
         <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Tattoos for you
+            Top Rated Products
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Tattoos
+            Best Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             As chosen by you ...
@@ -75,7 +75,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                   className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
                   onClick={handleOrderPopup}
                 >
-                  Get Ink Now
+                  View More Designs
                 </button>
               </div>
             </div>
