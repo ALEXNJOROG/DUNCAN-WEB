@@ -2,30 +2,87 @@ import React from "react";
 import Img1 from "../../assets/shirt/shirt.png";
 import Img2 from "../../assets/shirt/shirt2.png";
 import Img3 from "../../assets/shirt/shirt3.png";
+import Img4 from "../../assets/shirt/shirt4.png";
+import Img5 from "../../assets/shirt/shirt5.png";
+import Img6 from "../../assets/shirt/shirt6.png";
+import Img7 from "../../assets/shirt/shirt7.png";
+import Img8 from "../../assets/shirt/shirt8.png";
+import Img9 from "../../assets/shirt/shirt9.png";
+import Img10 from "../../assets/shirt/shirt10.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Sofa-Sets",
+    title: "Semi-recliners",
     description:
       "Sink into comfort and style — order your custom-made sofaset today!",
   },
   {
     id: 2,
     img: Img2,
-    title: "Wardropes",
+    title: "Wardrobes and Closets",
     description:
       "Upgrade your space with elegant, spacious wardrobes — handcrafted just for you!",
   },
   {
     id: 3,
     img: Img3,
+    title: "Dining Tables",
+    description:
+      "Gather in style—dine like royalty!",
+  },
+  {
+    id: 4,
+    img: Img4,
     title: "Coffee Tables",
     description:
       "Add charm to your living room — stylish coffee tables made to impress!",
   },
+  {
+    id: 5,
+    img: Img5,
+    title: "Mocket Beds",
+    description:
+      "Sleep smart. Save space. Discover Mocket beds!",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Kitchen Tables",
+    description:
+      "Cook, chat, connect—your perfect kitchen table awaits!",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "Study Tables",
+    description:
+      "Fuel focus with our sleek study tables!",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Kitchen Cabinet Fittings ",
+    description:
+      "Upgrade your kitchen—fit it with finesse!",
+  },
+  {
+    id: 9,
+    img: Img9,
+    title: "Gypsum Ceiling Fittings ",
+    description:
+      "Top off your space with elegant gypsum ceilings!",
+  },
+  {
+    id: 10,
+    img: Img10,
+    title: "TV Stands ",
+    description:
+      "Style meets storage—find your perfect TV stand!",
+  },
+  
 ];
 const TopProducts = ({ handleOrderPopup }) => {
   return (

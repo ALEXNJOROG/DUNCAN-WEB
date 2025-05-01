@@ -2,6 +2,7 @@ import React from "react";
 import Image1 from "../../assets/hero/women.png";
 import Image2 from "../../assets/hero/shopping.png";
 import Image3 from "../../assets/hero/sale.png";
+import Image4 from "../../assets/hero/gypsum.png";
 import Slider from "react-slick";
 
 const ImageList = [
@@ -15,7 +16,7 @@ const ImageList = [
   {
     id: 2,
     img: Image2,
-    title: "🪑 Tables – 5% OFF",
+    title: "🪚 Tables – 5% OFF",
     description:
       "Gather around greatness – enjoy 5% OFF all handcrafted tables!",
   },
@@ -26,6 +27,14 @@ const ImageList = [
     description:
       "Sleep in style and save – get 15% OFF all custom-made beds!",
   },
+  {
+    id: 4,
+    img: Image4,
+    title: "🎨 Gypsum Ceiling Fittings – 20% OFF",
+    description:
+      "Enjoy in style and save – get 20% OFF all custom-made Gypsum Ceilings!",
+  },
+
 ];
 
 const Hero = ({ handleOrderPopup }) => {
