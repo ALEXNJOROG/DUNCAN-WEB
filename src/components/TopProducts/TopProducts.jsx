@@ -18,6 +18,7 @@ const ProductsData = [
     title: "Semi-recliners",
     description:
       "Sink into comfort and style — order your custom-made sofaset today!",
+    pdf: "/pdfs/semi-recliners.pdf",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const ProductsData = [
     title: "Wardrobes and Closets",
     description:
       "Upgrade your space with elegant, spacious wardrobes — handcrafted just for you!",
+    pdf: "/pdfs/wardrobes.pdf",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const ProductsData = [
     title: "Dining Tables",
     description:
       "Gather in style—dine like royalty!",
+    pdf: "/pdfs/dining-tables.pdf",
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ const ProductsData = [
     title: "Coffee Tables",
     description:
       "Add charm to your living room — stylish coffee tables made to impress!",
+    pdf: "/pdfs/coffee-tables.pdf",
   },
   {
     id: 5,
@@ -46,6 +50,7 @@ const ProductsData = [
     title: "Mocket Beds",
     description:
       "Sleep smart. Save space. Discover Mocket beds!",
+    pdf: "/pdfs/mocket-beds.pdf",
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const ProductsData = [
     title: "Kitchen Tables",
     description:
       "Cook, chat, connect—your perfect kitchen table awaits!",
+    pdf: "pdfs/kitchen-tables.pdf",
   },
   {
     id: 7,
@@ -60,6 +66,7 @@ const ProductsData = [
     title: "Study Tables",
     description:
       "Fuel focus with our sleek study tables!",
+      pdf: "pdfs/study-tables.pdf",
   },
   {
     id: 8,
@@ -67,6 +74,7 @@ const ProductsData = [
     title: "Kitchen Cabinet Fittings ",
     description:
       "Upgrade your kitchen—fit it with finesse!",
+    pdf: "/pdfs/kitchen-cabinets.pdf",
   },
   {
     id: 9,
@@ -74,6 +82,8 @@ const ProductsData = [
     title: "Gypsum Ceiling Fittings ",
     description:
       "Top off your space with elegant gypsum ceilings!",
+    pdf: "/pdfs/gypsum-ceilings.pdf",
+    
   },
   {
     id: 10,
@@ -81,6 +91,7 @@ const ProductsData = [
     title: "TV Stands ",
     description:
       "Style meets storage—find your perfect TV stand!",
+    pdf: "pdfs/tv-stands.pdf",
   },
   
 ];
@@ -131,10 +142,11 @@ const TopProducts = ({ handleOrderPopup }) => {
               </p>
               <button
                 className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
-                onClick={handleOrderPopup}
+                onClick={() => window.open(data.pdf, "_blank")}
               >
                 View More Designs
               </button>
+
             </div>
           </div>
         ))}
